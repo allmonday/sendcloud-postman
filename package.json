@@ -1,0 +1,19 @@
+{
+  "name": "sendcloud-postman",
+  "version": "0.0.1",
+  "description": "util to send emails",
+  "main": "index.js",
+  "dependencies": {
+    "request": "~2.45.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sendcloud",
+    "mail"
+  ],
+  "author": "kikodo",
+  "license": "MIT"
+}
