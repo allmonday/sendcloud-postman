@@ -79,14 +79,14 @@ function forgetPasswordFn(site, username, sessionKey) {
     '<p><span style="font-size: 12.7272720336914px; line-height: 20.8000011444092px;">请点击下面的链接修改用户'+
     username +
     '</span></p>'+
-    '<p>http:// '+
+    '<p>http://'+
     site +
     '/#/reset_password?token='+
     sessionKey +
     ';</p>'+
     '<p><span style="font-size: 13px; line-height: 1.6em;">为了保证您帐号的安全性，该链接有效期为30分钟，并且点击一次后将失效!</span></p> <p>Qisense 运营团队</p> <p>&nbsp;</p> <p>系统发信， 请勿回复</p> <p>Qisense官方网站: Qisense.com</p> <p>&nbsp;</p>'
 }
-
+// to be decided
 function newUserRegisterFn(site, username, sessionKey) {
     return '<p>尊敬的客户：</p>' +
     ' <p>您好！</p> <p>您在&nbsp;' +
