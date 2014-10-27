@@ -1,6 +1,6 @@
 {
   "name": "sendcloud-postman",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "util to send emails",
   "main": "index.js",
   "dependencies": {

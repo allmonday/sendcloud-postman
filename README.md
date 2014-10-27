@@ -7,6 +7,7 @@ two kinds of type is offerd:
 - forgetPassword
 - newRegister
 
+usage
 
 ```javascript
 var Postman = require("sendcloud-postman");
@@ -23,7 +24,7 @@ var mailObj = {
   fromname: 'name',
   };
   
-postman.send(mailObj, 'admin', sessionKey ,function (err) {
+postman.send(mailObj, 'admin', sessionKey , 'http://localhost:8000', function (err) {
     if (err) {
         throw err;
     } else {
